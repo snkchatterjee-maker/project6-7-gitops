@@ -3,7 +3,7 @@ namespace: ecommerce
 services:
   - name: order-api
     image: order-api:1.0
-    replicas: 2
+    replicas: 3
     port: 8080
     serviceName: order-service
 
